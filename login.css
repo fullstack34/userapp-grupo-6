@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url("img/fundo2.png");
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.acesso {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(52,73,94,0.8);
+    border: 5px black solid;
+    margin-right: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acesso form button {
+    margin-top: 15px;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    border-radius: 13px;
+    background-color: black; 
+}
+.acesso form button {
+    border:solid 2px white;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+.acesso form button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border:solid 2px black;    
+    background-color: white;
+    color: black;
+}
+input{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+label{
+    color: white;
+    font-family: poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.container .acesso form .form-content{
+    padding-top: 15px;
+}
+.container .acesso form .form-btn{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .acesso form .forgot-password{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
