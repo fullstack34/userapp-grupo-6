@@ -86,3 +86,11 @@ label{
     font-weight: 700;
     color: white;
 }
+
+.form-btn a{
+    text-decoration: none;
+    color: white;
+}
+.form-btn a:hover{
+    color: black;
+}
