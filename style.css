@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body {
+    background-image: url("img/fundo2.png");       
+}
+.barra-nav {
+    position: fixed;
+    background-color: rgba(52, 73, 94,0.7);
+    width: 100%;
+    height: 55px;
+    
+}
+.barra-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;   
+}
+.barra-nav ul li {
+    list-style-type: none;
+    margin: 15px;
+}
+.barra-nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: poppins;
+    color: white;
+    
+}
+.barra-nav .btn-login {
+    width: 90px;
+    height: 35px;
+    border-radius: 13px;
+    background-color: black;
+    border: 2px white solid;
+}
+.barra-nav .btn-login a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+.barra-nav .btn-login:hover {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;    
+    background-color: white;
+    border: 2px black solid;
+}
+.barra-nav .btn-login a:hover {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;    
+    color: black;
+}
+.container {    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;    
+}   
+.acesso {    
+    width: 400px;
+    height: 500px;
+    background-color: rgba(52, 73, 94,0.8);
+    border: 5px black solid;       
+    border-radius: 20px;    
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 50px;       
+}
+.acesso .promo {    
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.acesso .promo h2 {
+    font-family: poppins;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+
+}
+.acesso .promo p {
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 auto;
+    color: white;
+}
+.acesso .btn-create {       
+    width: 200px;
+    height: 40px;
+    border-radius: 13px;
+    background-color: black;
+    border: 2px white solid;
+    margin-top: 50px;
+}
+.acesso .btn-create a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+.acesso .btn-create:hover {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;    
+    background-color: white;
+    border: 2px black solid;
+}
+.acesso .btn-create a:hover {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: 700;    
+    color: black;
+}
