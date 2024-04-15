@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url("../img/fundo2.png");
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container .acesso {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(52,73,94,0.8);
+    border: 5px black solid;
+    margin: auto;
+    border-radius: 20px;
+}
+.barra-nav {
+    position: fixed;
+    background-color: rgba(255, 255, 255,0.7);
+    width: 100%;
+    height: 55px;
+    
+}
+.barra-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 20px;   
+}
+.barra-nav ul li {
+    list-style-type: none;
+    margin: 15px;
+}
+.barra-nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: poppins;
+    color: black;
+}
+.container .acesso .content{
+    margin: auto;
+}
+.container .acesso .content .titulo-acesso{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: poppins;
+    color: white;
+}
+.container .acesso .content .content-acesso{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: poppins;
+    color: white;
+}
+.container .acesso .content .content-input input{
+    text-align: end;
+    border: none;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 800;
+    font-family: poppins;
+    background-color: transparent;
+    width: 50%;
+    margin: 20px;
+}
+.container .acesso .content .content-input{
+    font-size: 1.2em;
+    color: white;
+    font-weight: 800;
+    font-family: poppins;
+}
