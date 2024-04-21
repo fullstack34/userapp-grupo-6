@@ -52,6 +52,12 @@ body {
     background-color: white;
     color: black;
 }
+
+.btn-create a {
+    text-decoration: none;
+    color: #fff;
+}
+
 input{
     margin-top: 10px;
     font-size: 1.5rem;

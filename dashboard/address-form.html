@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereço Formulário</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="address-form.css">
+</head>
+<body>
+    <nav class="barra-nav">
+        <ul>
+            <li><a href="index.html">APPUSER</a></li>
+            <li><a href="address-form.html">Cadastrar Endereço</a></li>
+            <li><a href="#">Listar Endereços</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <!-- Formulário de Cadastro de Endereço -->
+        <div class="address-form">
+            <h2>Cadastro de Endereço</h2>
+            <form action="#" method="POST">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" required>
+
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" name="rua" required>
+
+                <label for="numero">Número:</label>
+                <input type="text" id="numero" name="numero" required>
+
+                <label for="complemento">Complemento:</label>
+                <input type="text" id="complemento" name="complemento">
+
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro" required>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" required>
+
+                <label for="uf">UF:</label>
+                <input type="text" id="uf" name="uf" required>
+
+                <button type="submit">Cadastrar Endereço</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

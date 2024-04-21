@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e6ecf1;
-    background-image: url(img/fundo2\ \(1\).png)
+    background-image: url(img/fundo2.png)
   }
   
   .text h1{
@@ -16,16 +16,16 @@ body {
   .form {
     max-width: 400px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: rgba(52,73,94,0.8);
+    border: 3px black solid;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, .212);
   }
   
   .inputs label {
     display: block;
     margin-bottom: 8px;
-    color: #0a2f57;
+    color: #fff;
     font-weight: 540;
   }
   
@@ -43,7 +43,7 @@ body {
   }
   
   .input-bx input:focus-visible{
-      outline: 1px solid #0a2f57;
+      outline: 1px solid #000000;
   }
   
   .input-bx input::placeholder{
