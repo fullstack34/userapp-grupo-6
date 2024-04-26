@@ -68,7 +68,7 @@ body {
     font-family: poppins;
     color: white;
 }
-.container .acesso .content .content-input input{
+.container .acesso .content .content-input .input-money{
     text-align: end;
     border: none;
     font-size: 1.2em;
@@ -84,4 +84,25 @@ body {
     color: white;
     font-weight: 800;
     font-family: poppins;
+}
+.container .acesso .content .content-table{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 0.8em;
+    color: white;
+    font-weight: 800;
+    font-family: poppins;
+    border-collapse: collapse;
+}
+.container .acesso .content .content-table tr,.container .acesso .content .content-table td,.container .acesso .content .content-table th{
+    border: 5px solid white;
+}
+
+.container .acesso .content .content-table input{
+    background-color: transparent;
+    width: 100%;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 800;
+    text-align: center;
 }
