@@ -27,19 +27,48 @@
             </div>
             <div class="acesso">
                 <div class="content">
-                    <h2 class="titulo-acesso">Quantidade Total de Usuários:</h2>
+                    <h2 class="titulo-acesso">Estatísticas:</h2>
                     <p class="content-acesso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis illum dolores esse consequatur quo minima animi beatae. Rerum est facilis quod? Adipisci veritatis cupiditate ab saepe, vero nam optio?</p>
-                    <div class="content-input">
-                        <input id="input-users" class="input-users" type="number" readonly value="0">Usuários
-                    </div>
-            </div>
+                    <table class="content-table">
+                        <thead>
+                            <th>
+                                Total de Usuários
+                            </th>
+                            <th>
+                                Total de Usuários(24hrs)
+                            </th>
+                            <th>
+                                Total de Endereços
+                            </th>
+                            <th>
+                                Total de Endereços(24hrs)
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                 <td>
+                                    <input type="number" readonly name="total_users" value="50">
+                                 </td> 
+                                 <td>
+                                    <input type="number" readonly name="total_users24" value="5">
+                                 </td>
+                                 <td>
+                                    <input type="number" readonly name="total_adress" value="250">
+                                 </td> 
+                                 <td>
+                                    <input type="number" readonly name="total_adress24" value="25">
+                                 </td>           
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="acesso">
                 <div class="content">
                     <h2 class="titulo-acesso">Total Faturado:</h2>
                     <p class="content-acesso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolor consequatur, error eaque adipisci voluptatibus tempora aliquid quia doloremque commodi incidunt optio beatae ipsa rem blanditiis doloribus. Similique, eum non!</p>
                     <div class="content-input">
-                        <input id="input-money" name="input-money" type="number" readonly value="0">R$
+                        <input id="input-money" class="input-money" name="input-money" type="number" readonly value="0">R$
                     </div>
                 </div>
             </div>
