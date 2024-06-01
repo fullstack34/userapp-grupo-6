@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 body {
     background-image: url("img/fundo2.png");
@@ -35,7 +34,7 @@ body {
     background-color: black; 
 }
 .acesso form button {
-    border:solid 2px white;
+    border: solid 2px white;
     text-decoration: none;
     font-family: poppins;
     font-size: 1.2rem;
@@ -48,17 +47,11 @@ body {
     font-family: poppins;
     font-size: 1.2rem;
     font-weight: 700;
-    border:solid 2px black;    
+    border: solid 2px black;    
     background-color: white;
     color: black;
 }
-
-.btn-create a {
-    text-decoration: none;
-    color: #fff;
-}
-
-input{
+input {
     margin-top: 10px;
     font-size: 1.5rem;
     display: block;
@@ -66,23 +59,22 @@ input{
     border-radius: 5px;
     color: black;
 }
-label{
+label {
     color: white;
     font-family: poppins;
     font-size: 1.5rem;
     font-weight: 700;
 }
-.container .acesso form .form-content{
+.container .acesso form .form-content {
     padding-top: 15px;
 }
-.container .acesso form .form-btn{
+.container .acesso form .form-btn {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
-.container .acesso form .forgot-password{
+.container .acesso form .forgot-password {
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -92,11 +84,8 @@ label{
     font-weight: 700;
     color: white;
 }
-.container .acesso form .form-btn .botao_cadastro a{
-    color: white;
-    text-decoration: none;
-}
-.container .acesso form .form-btn .botao_cadastro a:hover{
-    color: black;
-    text-decoration: none;
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
 }
