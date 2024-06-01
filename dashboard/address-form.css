@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/fundo2.png");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    padding-top: 60px;
+}
+
+/* menu */
+.barra-nav  {
+    position: fixed;
+    background-color: rgba(255, 255, 255,0.7);
+    width: 100%;
+    height: 50px; 
+}
+
+.barra-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 20px; 
+    margin-top: -1px;  
+}
+
+.barra-nav ul li {
+    list-style-type: none;
+    margin: 15px;
+}
+
+.barra-nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: poppins;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* formulário de cadastro de endereço */
+.address-form {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(52,73,94,0.8);
+    border: 3px black solid;
+    border-radius: 13px;
+}
+
+.address-form h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.address-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.address-form input {
+    width: 94% ;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+.address-form button {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.address-form button:hover {
+    background-color: rgb(3, 6, 12)
+}

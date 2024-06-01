@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,42 +7,44 @@
   <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
-    <div class="text">
-        <h1>Cadastre-se</h1>
-    </div>
-  <div class="conteiner">
-      <form class="form" action="/create-account.html" method="POST">
-      
-        <div class="inputs">
-            <div class="input-bx">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-            </div>
-            <div class="input-bx">
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
-            </div>
-      
-            <div class="input-bx">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu E-mail" required>
-            </div>
-      
-            <div class="input-bx">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
-            </div>
-      
-            <div class="input-bx">
-                <label for="confirmar-senha">Confirmar Senha:</label>
-            <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha" required>
-            </div>
-        </div>
-        <div class="form-bt"><button><a href="/login.html">Criar Conta</a></button></div>
-      </form>
-      <div class="login-link">
-        <a href="login.html">Já tem uma conta? Faça login</a>
-      </div>
+  <div class="text">
+    <h1>Cadastre-se</h1>
   </div>
+  <div class="conteiner">
+    <form class="form" id="cadastroForm" action="/create-account.html" method="POST">
+      <div class="inputs">
+        <div class="input-bx">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" >
+          <span class="error-message" id="nomeError"></span>
+        </div>
+        <div class="input-bx">
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" >
+          <span class="error-message" id="sobrenomeError"></span>
+        </div>
+        <div class="input-bx">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu E-mail" >
+          <span class="error-message" id="emailError"></span>
+        </div>
+        <div class="input-bx">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" placeholder="Digite sua senha" >
+          <span class="error-message" id="senhaError"></span>
+        </div>
+        <div class="input-bx">
+          <label for="confirmar-senha">Confirmar Senha:</label>
+          <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha" >
+          <span class="error-message" id="confirmarSenhaError"></span>
+        </div>
+      </div>
+      <div class="form-bt"><button type="submit">Criar Conta</button></div>
+    </form>
+    <div class="login-link">
+      <a href="login.html">Já tem uma conta? Faça login</a>
+    </div>
+  </div>
+  <script src="javaScript/cadastro.js"></script>
 </body>
 </html>
