@@ -45,8 +45,19 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
         formIsValid = false;
     }
 
-    // Se o formulário for válido, redireciona para a página de login
+    // Se o formulário for válido, salva os dados no localStorage
     if (formIsValid) {
+        const usuario = {
+            nome: nome,
+            sobrenome: sobrenome,
+            email: email,
+            senha: senha
+        };
+
+        // Converte o objeto para uma string JSON e salva no localStorage
+        localStorage.setItem("usuario", JSON.stringify(usuario));
+
+        // Redireciona para a página de login
         window.location.href = 'login.html';
     }
 });
